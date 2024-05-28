@@ -136,16 +136,36 @@ nav i {
 
 .lft-two, .rght-two {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
+    gap: 5%;
     width: 50%;
     height: 100%;
     /* background-color: rgb(96, 155, 71); */
 }
 
 .lft-two svg {
-    width: 70%;
+    width: 90%;
     margin-top: 50vh;
-    transform: rotateX(50deg);
+    transform: rotateX(60deg);
+}
+
+.rght-two h1 {
+    color: #fff;
+    font-size: 2.5vw;
+}
+
+.rght-two p {
+    color: #fff;
+    width: 80%;
+}
+
+/* style for three */
+
+.three {
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
 }
 
