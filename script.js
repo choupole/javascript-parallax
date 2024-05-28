@@ -47,20 +47,37 @@ var tl2 = gsap.timeline({
     scrollTrigger: {
         trigger: ".three",         // L'élément déclencheur de l'animation
         start: "0% 95%",         // Le début de l'animation (0% de la hauteur de la fenêtre)
-        end: "70% 50%",          // La fin de l'animation (70% de la hauteur de la fenêtre)
+        end: "20% 50%",          // La fin de l'animation (70% de la hauteur de la fenêtre)
         scrub: true,             // Active le "scrub" (défilement dans les deux sens)
         markers: true,        // Active les marqueurs de débogage (optionnel)
     }
 })
 
-// tl2.from(".lemon1", {
-//     rotate: "-90deg",
-//     left : "-25%",
-//     top:"110%"
-// }, 'ca')
+tl2.from(".lemon1", {
+    rotate: "-90deg",
+    left : "-25%",
+    top:"100%"
+}, 'ca')
 
-// tl2.from("#coca", {
-//     rotate: "-95deg",
-//     // left : "-30%",
-//     top:"50%"
-// }, 'ca')
+tl2.from("#coca", {
+    rotate: "-85deg",
+    left : "-30%",
+    top:"100%"
+}, 'ca')
+
+// animation pepsi 
+tl2.from(".lemon2", {
+    rotate: "-90deg",
+    left : "100%",
+    top:"110%"
+}, 'ca')
+
+tl2.from("#pepsi", {
+    rotate: "-85deg",
+    left : "100%",
+    top:"70%"
+}, 'ca')
+
+
+
+         
