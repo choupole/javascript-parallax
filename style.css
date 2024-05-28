@@ -1,7 +1,14 @@
 /* Ajout des polices personnalisées */
 @font-face {
-    font-family: 'Product Sans';
+    font-family: 'Product Sans B';
     src: url('fonts/Product\ Sans\ Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/Product\ Sans\ Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,7 +33,7 @@ html, body {
 
 }
 nav {
-
+    position: fixed;
     display: flex;
     align-items: center;
     width: 100%;
@@ -34,5 +41,65 @@ nav {
     /* création d'une espace équitable entre les éléments de mon nav */
     justify-content: space-between; 
     padding: 0vw 10vw;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
+
+nav a, i {
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav i {
+    font-size: 1.5vw;
+}
+
+.cntr-nav {
+    display: flex;
+    gap: 3vw;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(250, 166, 0), rgb(245, 93, 0));
+}
+
+#fanta {
+    width: 40%;
+    z-index: 2;
+} 
+
+#orange-cut {
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    width: 15%;
+    z-index: 1;
+}
+
+#big-orange {
+    width: 15%;
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    right: 35%;
+}
+
+#fanta-title {
+    position: absolute;
+    z-index: 2;
+}
+
+.one h1 {
+    font-size: 25vw;
+    font-family: 'Product sans B';
+    color: #fff;
+}
+
+
+/* div class two  */
+
