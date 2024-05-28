@@ -1,12 +1,38 @@
+/* Ajout des polices personnalisées */
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/Product\ Sans\ Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Product Sans';
 }
 
 html, body {
-    height: 100%;
-    width: 100vh;
+    width: 100%;
+    height: 100vh;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
     background-color: orangered;
 
+}
+nav {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    /* création d'une espace équitable entre les éléments de mon nav */
+    justify-content: space-between; 
+    padding: 0vw 10vw;
+    background-color: antiquewhite;
 }
