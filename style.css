@@ -52,6 +52,7 @@ nav a, i {
 
 nav i {
     font-size: 1.5vw;
+    z-index: 9;
 }
 
 .cntr-nav {
@@ -100,6 +101,51 @@ nav i {
     color: #fff;
 }
 
+/* my leaves  */
+
+#leaf {
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    right: 80%;
+    transform: rotate(45deg);
+}
+
+#leaf2 {
+    width: 12%;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: rotate(-90deg);
+}
+#leaf3 {
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
 
 /* div class two  */
+
+.two {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #662115;
+}
+
+.lft-two, .rght-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(96, 155, 71); */
+}
+
+.lft-two svg {
+    width: 70%;
+    margin-top: 50vh;
+    transform: rotateX(50deg);
+}
 
