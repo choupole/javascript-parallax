@@ -78,6 +78,25 @@ tl2.from("#pepsi", {
     top:"70%"
 }, 'ca')
 
+// animation fanta 
+tl2.to("#orange-cut", {
+    // rotate: "90deg",
+    width: "17%",
+    top : "202%",
+    left:"42%"
+}, 'ca')
+
+tl2.to("#fanta", {
+    // rotate: "85deg",
+    width: "35%",
+    top : "210%",
+    left:"32%"
+}, 'ca')
+
+
+
+
+
 
 
          
